@@ -8,6 +8,7 @@ def foo(n: int) -> int:
         total += num
         product *= num
 
+
     return product - total 
 
 
