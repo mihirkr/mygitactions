@@ -1,5 +1,5 @@
 def foo(n: int) -> int:
-    """ Return difference between product and sum of digits in given integer """
+    """Return difference between product and sum of digits in given integer"""
     n_str = str(n)
 
     total, product = 0, 1
@@ -8,8 +8,7 @@ def foo(n: int) -> int:
         total += num
         product *= num
 
-
-    return product - total 
+    return product - total
 
 
 if __name__ == "__main__":
